@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Mochiy+Pop+P+One&family=Moo+Lah+Lah&family=Open+Sans:ital,wght@1,500&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,700;1,100;1,300;1,400;1,600;1,700&family=Source+Sans+Pro:ital,wght@1,700&family=Titillium+Web:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    
+    height: 100vh;
+    width: 100%;
+    background: rgb(180,85,217);
+background: linear-gradient(9deg, rgba(180,85,217,1) 0%, rgba(50,218,222,1) 51%, rgba(16,75,231,1) 100%);
+}
+.navbar{
+    height: 150px;
+  
+    display: inline-flex;
+    margin: 0 auto;
+    width: 100%;
+   
+    
+}
+.navbar ul{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.navbar .active  {
+    display: inline-flex;
+    margin: 30px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+.navbar .active li {
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 30px;
+}
+.logo{
+   
+float: left;
+  margin-left: 100px;
+  font-family: Permanent Marker;
+  font-size: 35px;
+  color: coral;
+}
+.navbar .sign-up{
+    display: inline-flex;
+    margin-left: 400px;
+}
+.navbar .sign-up button{
+padding: 10px 20px;
+font-family: cursive;
+color: aliceblue;
+font-weight: 600;
+border-radius: 20px;
+border: none;
+box-shadow: 10px 13px 14px white;
+font-size: 22px;
+background: rgb(44,34,195);
+background: linear-gradient(0deg, rgba(44,34,195,1) 0%, rgba(253,45,105,1) 100%);
+}
+
+/* body Section**/
+.body-sec{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-sec .sec-1{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    
+}
+.body-sec .sec-1 h1{
+    font-family:Permanent Marker;
+        font-size: 62px;
+        background: -webkit-linear-gradient(#a3b0e4, #ff6464);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+}
+.body-sec .sec-1 h4{
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.body-sec .sec-2{
+   
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-sec .sec-2 img{
+    height:600px;
+}
+
+/* about section**/
+.about-sec{
+   margin-top: -150px;
+    height: 500px;
+    background: rgb(249,227,238);
+background: linear-gradient(9deg, rgba(249,227,238,1) 0%, rgba(240,187,215,1) 51%, rgba(16,75,231,1) 100%);
+}
+.about-sec .image-sec img{
+    height: 500px;
+}
