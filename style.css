@@ -1,0 +1,14 @@
+.navbar{
+    background: rgb(210,143,210);
+background: linear-gradient(9deg, rgba(210,143,210,1) 0%, rgba(222,213,249,1) 47%, rgba(85,111,237,1) 100%);
+}
+.navbar .navbar-brand{
+font-family: cursive;
+font-weight: 600;
+font-size: 35px;
+border: 3px solid gray;
+border-radius: 10px;
+padding: 10px;
+background: rgb(210,143,210);
+background: linear-gradient(9deg, rgba(210,143,210,1) 0%, rgba(85,111,237,1) 100%);
+}
